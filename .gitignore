@@ -1,0 +1,67 @@
+# Environment
+.env
+*.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+*.pyc
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Data files (keep raw data out of git if large)
+# data/raw/*.csv   # Uncomment to exclude raw data
+# data/raw/*.xlsx
+
+# Outputs (generated visual charts - tracked for portfolio display)
+# outputs/figures/*.png
+# outputs/figures/*.jpg
+
+# Power BI cache
+dashboard/*.pbix
+
+# Logs
+*.log
+logs/
+
+# Secrets & credentials
+*.pem
+*.key
+*.p12
+credentials.json
