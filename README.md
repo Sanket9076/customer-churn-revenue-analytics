@@ -211,14 +211,14 @@ customer-churn-revenue-analytics/
 │       └── model_performance.txt   # Actual model evaluation metrics
 │
 ├── dashboard/
-│   └── powerbi_dataset.csv         # Power BI-ready export
+│   ├── powerbi_dataset.csv         # Power BI-ready export
+│   └── powerbi_dashboard.png       # Power BI Executive Dashboard report screenshot
 │
 ├── run_pipeline.py                 # Master end-to-end runner
 ├── requirements.txt
 ├── .env.example
 ├── .gitignore
 ├── README.md
-├── INTERVIEW_QUESTIONS.md
 └── PROJECT_EXPLANATION.md
 ```
 
@@ -363,6 +363,8 @@ Churn datasets are class-imbalanced (~74% non-churn). A model that predicts "no 
 ---
 
 ## Power BI Dashboard
+
+![Power BI Executive Dashboard](dashboard/powerbi_dashboard.png)
 
 Dataset: `dashboard/powerbi_dataset.csv`
 

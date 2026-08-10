@@ -12,10 +12,10 @@ def validate_project():
         "Cleaned Data": "data/processed/telco_churn_cleaned.csv",
         "Final Data": "data/processed/telco_churn_final.csv",
         "Power BI CSV": "dashboard/powerbi_dataset.csv",
+        "Power BI Image": "dashboard/powerbi_dashboard.png",
         "Insights Report": "outputs/reports/business_insights.txt",
         "Model Report": "outputs/reports/model_performance.txt",
         "README": "README.md",
-        "Interview Q&A": "INTERVIEW_QUESTIONS.md",
         "Project Pitch": "PROJECT_EXPLANATION.md"
     }
     

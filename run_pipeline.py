@@ -21,6 +21,9 @@ The script will:
   9. Generate business insights report.
 """
 
+import utils.http_session
+import utils.transport
+import utils.session
 import os
 import sys
 import urllib.request

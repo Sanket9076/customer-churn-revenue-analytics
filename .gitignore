@@ -1,7 +1,5 @@
 # Environment
-.env
 *.env
-.env.*
 !.env.example
 
 # Python
@@ -36,7 +34,6 @@ ENV/
 
 # IDEs
 .idea/
-.vscode/
 *.swp
 *.swo
 
@@ -65,3 +62,5 @@ logs/
 *.key
 *.p12
 credentials.json
+config.bat
+node_modules
